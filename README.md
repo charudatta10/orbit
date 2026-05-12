@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/The-Pocket/.github/raw/main/assets/title.png" alt="Orbit – Minimalist LLM framework for Lua" width="600"/>
+  <img src="assets/orbit1.png" alt="Orbit – Minimalist LLM framework for Lua" width="600"/>
 </div>
 
 <!-- For translation, replace English with [English](https://github.com/The-Pocket/Orbit/blob/main/README.md), and remove the link for the target language. -->
@@ -53,7 +53,7 @@ pf.run(fetch, {})
 Current LLM frameworks are bloated... You only need 160 lines for LLM Framework!
 
 <div align="center">
-  <img src="https://github.com/The-Pocket/.github/raw/main/assets/meme.jpg" width="400"/>
+  <img src="assets/orbit2.png" width="400"/>
 
 
   |                | **Abstraction**          | **App-Specific Wrappers**                                      | **Vendor-Specific Wrappers**                                    | **Lines**       | **Size**    |
@@ -103,7 +103,7 @@ From there, it's easy to implement popular design patterns like ([Multi-](docs/d
 <br>
 <div align="center">
   <a href="https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to" target="_blank">
-    <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F423a39af-49e8-483b-bc5a-88cc764350c6_1050x588.png" width="700" alt="IMAGE ALT TEXT" style="cursor: pointer;">
+    <img src="assets/orbit4.png" width="700" alt="IMAGE ALT TEXT" style="cursor: pointer;">
   </a>
 </div>
 <br>
@@ -127,3 +127,11 @@ From there, it's easy to implement popular design patterns like ([Multi-](docs/d
   - Check out [my YouTube](https://www.youtube.com/@ZacharyLLM?sub_confirmation=1) for video tutorial on how some apps above are made!
 
   - Want to build your own LLM App? Read this [post](https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to)! Start with [this template](https://github.com/The-Pocket/Orbit-Template-Python)!
+
+<br>
+<div align="center">
+  <a href="https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to" target="_blank">
+    <img src="assets/orbit3.png" width="700" alt="IMAGE ALT TEXT" style="cursor: pointer;">
+  </a>
+</div>
+<br>
