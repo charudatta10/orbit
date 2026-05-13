@@ -1,0 +1,6 @@
+openai
+orbit
+numpy
+sounddevice
+scipy
+soundfile 

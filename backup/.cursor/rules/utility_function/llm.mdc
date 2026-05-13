@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Utility Function, LLM Wrapper
+description: Guidelines for using orbit, Utility Function, LLM Wrapper
 globs: 
 alwaysApply: false
 ---
@@ -153,4 +153,5 @@ def call_llm(prompt):
     logging.info(f"Response: {response}")
     return response
 ```
+
 

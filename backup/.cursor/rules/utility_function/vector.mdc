@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Utility Function, Vector Databases
+description: Guidelines for using orbit, Utility Function, Vector Databases
 globs: 
 alwaysApply: false
 ---
@@ -213,4 +213,5 @@ q = "*=>[KNN 3 @embedding $BLOB AS dist]"
 res = r.ft("my_idx").search(q, query_params={"BLOB": qvec})
 print(res.docs)
 ```
+
 

@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from pocketflow import Node, BatchNode, Flow
+from orbit import Node, BatchNode, Flow
 
 class ArrayChunkNode(BatchNode):
     def __init__(self, chunk_size=10):
@@ -158,3 +158,4 @@ class TestBatchNode(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

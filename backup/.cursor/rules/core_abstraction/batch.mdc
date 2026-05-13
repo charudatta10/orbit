@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Core Abstraction, Batch
+description: Guidelines for using orbit, Core Abstraction, Batch
 globs: 
 alwaysApply: false
 ---
@@ -173,3 +173,4 @@ outer_flow = DirectoryBatchFlow(start=inner_flow)
 # Run it
 outer_flow.run(shared)
 ```
+

@@ -89,7 +89,7 @@ graph LR
     end
 ```
 
-For visualization based on d3.js, check out [the cookbook](https://github.com/The-Pocket/PocketFlow/tree/main/cookbook/pocketflow-visualization).
+For visualization based on d3.js, check out [the cookbook](https://github.com/The-Pocket/orbit/tree/main/cookbook/orbit-visualization).
 
 ## 2. Call Stack Debugging
 
@@ -141,4 +141,4 @@ data_science_flow.run({})
 
 The output would be: `Call stack: ['EvaluateModelNode', 'ModelFlow', 'DataScienceFlow']`
 
-For a more complete implementation, check out [the cookbook](https://github.com/The-Pocket/PocketFlow/tree/main/cookbook/pocketflow-tracing).
+For a more complete implementation, check out [the cookbook](https://github.com/The-Pocket/orbit/tree/main/cookbook/orbit-tracing).

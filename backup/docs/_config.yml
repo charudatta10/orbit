@@ -16,7 +16,7 @@ jekyll-seo-tag:
   social:
     name: "Pocket Flow"
     twitter: "ZacharyHuang12"
-    github: "the-pocket/PocketFlow"
+    github: "the-pocket/orbit"
 
 # Navigation
 nav_sort: case_sensitive
@@ -24,7 +24,7 @@ nav_sort: case_sensitive
 # Aux links (shown in upper right)
 aux_links:
   "View on GitHub":
-    - "//github.com/the-pocket/PocketFlow"
+    - "//github.com/the-pocket/orbit"
     
 # Color scheme
 color_scheme: light
@@ -56,5 +56,5 @@ callouts:
 # Custom navigation
 nav:
   - Home: index.md
-  - GitHub: "https://github.com/the-pocket/PocketFlow"
+  - GitHub: "https://github.com/the-pocket/orbit"
   - Discord: "https://discord.gg/hUHHE9Sa6T"

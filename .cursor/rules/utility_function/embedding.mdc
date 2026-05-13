@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Utility Function, Embedding
+description: Guidelines for using orbit, Utility Function, Embedding
 globs: 
 alwaysApply: false
 ---
@@ -112,4 +112,5 @@ res = requests.post(url, headers=headers, json=payload)
 vec = res.json()["data"][0]["embedding"]
 print(vec)
 ```
+
 

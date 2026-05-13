@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Core Abstraction, Communication
+description: Guidelines for using orbit, Core Abstraction, Communication
 globs: 
 alwaysApply: false
 ---
@@ -122,3 +122,4 @@ flow = Flow(start=node)
 flow.set_params({"filename": "doc2.txt"})
 flow.run(shared)  # The node summarizes doc2, not doc1
 ```
+

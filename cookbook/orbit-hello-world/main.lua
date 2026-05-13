@@ -2,7 +2,7 @@
 package.path = package.path .. ";../../?.lua;./?.lua"
 
 local pf = require("orbit")
-local qa_flow = require("flow")
+local qa_flow = require("cookbook.orbit-hello-world.flow")
 
 local function main()
     local shared = {

@@ -1,5 +1,5 @@
 ---
-description: Guidelines for using PocketFlow, Design Pattern, Agent
+description: Guidelines for using orbit, Design Pattern, Agent
 globs: 
 alwaysApply: false
 ---
@@ -144,3 +144,4 @@ search - "decide" >> decide  # Loop back
 flow = Flow(start=decide)
 flow.run({"query": "Who won the Nobel Prize in Physics 2024?"})
 ```
+

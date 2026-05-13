@@ -92,7 +92,7 @@ Agentic Coding should be a collaboration between Human System Design and Agent I
       {: .warning }
 
 4. **Data Design**: Design the shared store that nodes will use to communicate.
-   - One core design principle for PocketFlow is to use a well-designed [shared store](./core_abstraction/communication.md)—a data contract that all nodes agree upon to retrieve and store data.
+   - One core design principle for orbit is to use a well-designed [shared store](./core_abstraction/communication.md)—a data contract that all nodes agree upon to retrieve and store data.
       - For simple systems, use an in-memory dictionary.
       - For more complex systems or when persistence is required, use a database.
       - **Don't Repeat Yourself**: Use in-memory references or foreign keys.
@@ -159,7 +159,7 @@ my_project/
 - **`requirements.txt`**: Lists the Python dependencies for the project.
   ```
   PyYAML
-  pocketflow
+  orbit
   ```
 
 - **`docs/design.md`**: Contains project documentation for each step above. This should be *high-level* and *no-code*.
@@ -272,7 +272,7 @@ my_project/
 - **`nodes.py`**: Contains all the node definitions.
   ```python
   # nodes.py
-  from pocketflow import Node
+  from orbit import Node
   from utils.call_llm import call_llm
 
   class GetQuestionNode(Node):
@@ -302,7 +302,7 @@ my_project/
 - **`flow.py`**: Implements functions that create flows by importing node definitions and connecting them.
   ```python
   # flow.py
-  from pocketflow import Flow
+  from orbit import Flow
   from nodes import GetQuestionNode, AnswerNode
 
   def create_qa_flow():
@@ -339,3 +339,4 @@ my_project/
   if __name__ == "__main__":
       main()
   ```
+
