@@ -1,13 +1,13 @@
 --- Specialized nodes for skill execution.
 -- @module skill_nodes
 local pf = require("orbit")
-local skill_manager = require("utils.skill_manager")
+local skill_manager = require("orbit.utils.skill_manager")
 
 local M = {}
 
 -- Helper to find call_llm (standardizing on utils/call_llm.lua)
 local function get_call_llm()
-    local ok, call_llm_mod = pcall(require, "utils.call_llm")
+    local ok, call_llm_mod = pcall(require, "orbit.utils.call_llm")
     if ok then return call_llm_mod.call_llm end
     
     -- Fallback/Mock for testing if not found

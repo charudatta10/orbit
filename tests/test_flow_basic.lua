@@ -72,7 +72,8 @@ local function test_pipeline_sugar()
     local n3 = MultiplyNode(2)
 
     -- Test __shr (>>)
-    local _ = n1 >> n2 >> n3
+    n1:to("default", n2)
+    n2:to("default", n3)
 
     local last_action = pf.run(n1, shared)
     assert_equal(shared.current, 16, "Current should be 16")

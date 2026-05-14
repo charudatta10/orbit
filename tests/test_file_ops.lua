@@ -1,4 +1,4 @@
-local file_ops = require("utils.file_ops")
+local file_ops = require("orbit.utils.file_ops")
 
 local function assert_equal(actual, expected, message)
     if actual ~= expected then

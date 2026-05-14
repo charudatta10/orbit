@@ -1,4 +1,4 @@
-local skill_manager = require("utils.skill_manager")
+local skill_manager = require("orbit.utils.skill_manager")
 
 local function assert_equal(actual, expected, message)
     if actual ~= expected then

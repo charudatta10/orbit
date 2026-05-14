@@ -113,14 +113,14 @@ end
 
 local function test_skill_manager_gaps()
     print("Running test_skill_manager_gaps...")
-    local skill_manager = require("utils.skill_manager")
+    local skill_manager = require("orbit.utils.skill_manager")
     
     -- Test list_skills
     local skills = skill_manager.list_skills()
     assert_equal(skills[1], "summarize")
     
     -- Test invalid skill format
-    local file_ops = require("utils.file_ops")
+    local file_ops = require("orbit.utils.file_ops")
     file_ops.write_file("skills/invalid.md", "no frontmatter here")
     local skill, err = skill_manager.load_skill("invalid")
     assert_equal(skill, nil)
