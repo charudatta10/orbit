@@ -34,6 +34,13 @@ examples = {
     "cookbook"
 }
 
+-- Custom naming: use parent folder name instead of filename
+example_name = function(filename)
+    -- Match last folder before the file
+    local parent = filename:match("([^/\\]+)[/\\][^/\\]+$")
+    return parent or filename
+end
+
 title = "Orbit Documentation"
 
 sort = true
