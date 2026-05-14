@@ -64,6 +64,11 @@ We **do not** provide built-in utilities. Instead, we offer *examples*—please 
 - *Flexibility*: You may want to switch vendors, use fine-tuned models, or run them locally.
 - *Optimizations*: Prompt caching, batching, and streaming are easier without vendor lock-in.
 
+## API Reference
+
+Orbit is fully documented with LDoc. You can find the detailed API reference here:
+- [API Reference](./api/index.html)
+
 ## Ready to build your Apps? 
 
 Check out [Agentic Coding Guidance](./guide.md), the fastest way to develop LLM projects with Orbit!

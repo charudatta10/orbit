@@ -129,9 +129,28 @@ From there, it's easy to implement popular design patterns like ([Multi-](docs/d
   - Want to build your own LLM App? Read this [post](https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to)! Start with [this template](https://github.com/The-Pocket/Orbit-Template-Python)!
 
 <br>
-<div align="center">
-  <a href="https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to" target="_blank">
-    <img src="assets/orbit3.png" width="700" alt="IMAGE ALT TEXT" style="cursor: pointer;">
-  </a>
-</div>
-<br>
+
+## Development
+
+### Running Tests
+Orbit uses a simple unified test runner. To run all tests:
+```bash
+lua tests/run_all.lua
+```
+
+### Test Coverage
+To check test coverage, you'll need `luacov`:
+```bash
+luarocks install luacov
+lua -lluacov tests/run_all.lua
+luacov
+```
+Check `luacov.report.out` for the results.
+
+### Generating Documentation
+Documentation is generated using `LDoc`:
+```bash
+luarocks install ldoc
+ldoc .
+```
+The output will be in `docs/api`.
