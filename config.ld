@@ -9,14 +9,14 @@ It supports conditional transitions, retries, batch processing, and is native to
 ]]
 
 file = {
-    "orbit.lua",
-    "utils/file_ops.lua",
-    "utils/skill_manager.lua",
-    "utils/message_gateway.lua",
-    "utils/task_orchestrator.lua",
-    "utils/call_llm.lua",
-    "utils/code_executor.lua",
-    "nodes/skill_nodes.lua"
+    "src/init.lua",
+    "src/utils/file_ops.lua",
+    "src/utils/skill_manager.lua",
+    "src/utils/message_gateway.lua",
+    "src/utils/task_orchestrator.lua",
+    "src/utils/call_llm.lua",
+    "src/utils/code_executor.lua",
+    "src/nodes/skill_nodes.lua"
 }
 
 dir = "docs/api"
@@ -33,15 +33,6 @@ kind_names = {
 examples = {
     "cookbook"
 }
-
--- Custom naming: use full relative path minus extension
-example_name = function(filename)
-    -- Normalize slashes
-    filename = filename:gsub("\\", "/")
-    -- Remove leading cookbook/ and .lua extension
-    local name = filename:gsub("^cookbook/", ""):gsub("%.lua$", "")
-    return name
-end
 
 title = "Orbit Documentation"
 

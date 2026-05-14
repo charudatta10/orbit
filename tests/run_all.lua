@@ -1,5 +1,6 @@
 -- tests/run_all.lua
 -- Unified test runner for Orbit
+local M = {}
 
 local function list_files(dir)
     local cmd = "dir /b " .. dir
@@ -34,7 +35,7 @@ local function run_test(path)
     end
 end
 
-local function main()
+function M.main()
     local test_dir = "tests"
     local files = list_files(test_dir)
     
@@ -59,4 +60,8 @@ local function main()
     end
 end
 
-main()
+if ... == nil then
+    M.main()
+end
+
+return M
