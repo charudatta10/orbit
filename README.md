@@ -133,6 +133,12 @@ From there, it's easy to implement popular design patterns like ([Multi-](docs/d
 
 ## Development
 
+### LDE (Lua Development Environment)
+To run examples or manage dependencies, ensure you have LDE installed:
+```bash
+powershell -c "irm https://lde.sh/install.ps1 | iex"
+```
+
 ### Running Examples
 Navigate to any cookbook example directory and execute:
 ```bash

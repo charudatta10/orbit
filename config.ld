@@ -34,11 +34,13 @@ examples = {
     "cookbook"
 }
 
--- Custom naming: use parent folder name instead of filename
+-- Custom naming: use full relative path minus extension
 example_name = function(filename)
-    -- Match last folder before the file
-    local parent = filename:match("([^/\\]+)[/\\][^/\\]+$")
-    return parent or filename
+    -- Normalize slashes
+    filename = filename:gsub("\\", "/")
+    -- Remove leading cookbook/ and .lua extension
+    local name = filename:gsub("^cookbook/", ""):gsub("%.lua$", "")
+    return name
 end
 
 title = "Orbit Documentation"
