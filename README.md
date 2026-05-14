@@ -23,6 +23,7 @@ English | [中文](https://github.com/The-Pocket/Orbit/blob/main/cookbook/orbit-
 Get started with Orbit:
 - To install, just copy [orbit.lua](orbit.lua) or [main.lua](main.lua) into your project.
 - To learn more, check out the [documentation](docs/index.md) and [cookbook](cookbook/)
+- **Examples**: To run examples, first install LDE: `luarocks install lde` (or local dependency manager). Then navigate to the example directory and run `lua main.lua`.
 - 🎉 Join our [Discord](https://discord.gg/hUHHE9Sa6T) to connect with other developers building with Orbit!
 
 ---
@@ -131,6 +132,12 @@ From there, it's easy to implement popular design patterns like ([Multi-](docs/d
 <br>
 
 ## Development
+
+### Running Examples
+Navigate to any cookbook example directory and execute:
+```bash
+lua main.lua
+```
 
 ### Running Tests
 Orbit uses a simple unified test runner. To run all tests:
