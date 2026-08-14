@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover.png" alt="orbit" width="800"/>
+</p>
+
 <div align="center">
   <img src="assets/orbit1.png" alt="Orbit – Minimalist LLM framework for Lua" width="600"/>
 </div>
